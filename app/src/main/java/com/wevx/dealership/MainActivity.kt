@@ -11,6 +11,7 @@ import android.os.Handler
 import android.os.Looper
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var binding: ActivityMainBinding
     private var doubleBackToExitPressedOnce = false
     private lateinit var backPressCallback: OnBackPressedCallback
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             webView.settings.javaScriptEnabled = true
             webView.webViewClient = WebViewClient()
         }
+
 
         backPressCallback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
