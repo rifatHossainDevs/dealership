@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Dealership" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="Theme.Dealership.MainActivity" parent="Base.Theme.Dealership">
+        <item name="android:statusBarColor">#023094</item> <!-- Status bar background -->
+        <item name="android:windowLightStatusBar">false</item> <!-- Dark text -->
+    </style>
+    <style name="Theme.Dealership" parent="Base.Theme.Dealership" />
+</resources>
